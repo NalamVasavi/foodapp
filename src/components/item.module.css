@@ -1,0 +1,53 @@
+.cont {
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+}
+
+.imgCont {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.img {
+  height: auto;
+  max-height: 100px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.nameCont {
+  margin-left: 50px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.amt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.conDet {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}

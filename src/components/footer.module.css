@@ -1,0 +1,14 @@
+.txt {
+  font-size: 40px;
+  background: rgb(183, 63, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 63, 54, 1) 5%,
+    rgba(132, 179, 171, 1) 31%,
+    rgba(229, 165, 8, 1) 48%,
+    rgba(202, 126, 49, 1) 62%,
+    rgba(72, 83, 9, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
