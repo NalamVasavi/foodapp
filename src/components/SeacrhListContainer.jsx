@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Container from "./Container";
-import FoodList from "./FOodList";
+import FoodList from "./FoodList";
 import InnerContainer from "./InnerContainer";
 import Search from "./Search";
 import Loader from "./Loader";
