@@ -12,3 +12,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.footerStyle {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  position: relative;
+  margin-top: auto;
+  background: url(../assets/images/footer8.jpg) no-repeat center;
+  background-size: 100%;
+}

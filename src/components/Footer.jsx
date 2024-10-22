@@ -9,7 +9,7 @@ export default function Footer() {
     borderTop: "1px solid #e7e7e7",
     position: "relative",
     marginTop: "auto",
-    background: "url(/src/assets/images/footer8.jpg) no-repeat center",
+    background: "url(../assets/images/footer8.jpg) no-repeat center",
     /* background-size: 100% 100%; */
     backgroundSize: "100%",
   };
@@ -58,7 +58,7 @@ export default function Footer() {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      style={footerStyle}
+      className={styles.footerStyle}
     >
       <motion.div
         // drag
