@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Loader from "./Loader";
 
 export default function FoodDetails1() {
-  const API_KEY = import.meta.env.VITE_API_KEY_2;
+  const API_KEY = import.meta.env.VITE_API_KEY_3;
   const location = useLocation();
   const { foodId } = location.state || {};
   const [food, setFood] = useState({});
